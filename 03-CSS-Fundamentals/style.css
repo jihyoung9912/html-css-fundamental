@@ -1,10 +1,16 @@
+* {
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 5px solid #1098ad;
+}
+
 h1,
 h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -56,4 +62,54 @@ footer p {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* this won't work! */
+article p:first-child {
+  color: red;
+}
+
+a:link {
+  color: #1098ad;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+nav {
+  font-size: 18px;
 }
